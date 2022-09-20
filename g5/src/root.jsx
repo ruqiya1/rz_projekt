@@ -4,10 +4,10 @@ import { Data } from './mock/mock.jsx'
 
 class Root extends React.Component {
     constructor(props) {
-        super(props); 
-        
+        super(props);
+
         this.state = {
-            datacha : Data, 
+            datacha: Data,
             sum: 0,
         }
     }
